@@ -49,3 +49,13 @@ function deleteOneById(id) {
 
 let result = addOne("Buy groceries", false, "2025-08-30");
 console.log(result);
+
+const Todo = {
+    getAll,
+    addOne,
+    findById,
+    updateOneById,
+    deleteOneById
+};
+
+module.exports = Todo;

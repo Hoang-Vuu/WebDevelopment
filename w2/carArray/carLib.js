@@ -5,7 +5,7 @@ function addOne(model, color, age) {
     // Check if any parameter is empty or undefined
     if (!model || !color || !age) {
         return false;
-    }
+    
 
     const newCar = {
         id: nextId++,  // Assigns a unique id and increments it
@@ -77,3 +77,4 @@ const Car = {
 };
 
 module.exports = Car;
+}
