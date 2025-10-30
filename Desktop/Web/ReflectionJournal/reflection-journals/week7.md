@@ -3,7 +3,7 @@
 ----
 ## Links
 - Link(s) to Group activities: 
-  - 
+  - gi
   - 
 - Links to Pair programming: 
   - 
