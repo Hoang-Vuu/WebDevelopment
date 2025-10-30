@@ -1,9 +1,8 @@
-import React from "react";
-import CreditCard from "./components/CreditCard";
-
+import CreditCard from "./CreditCard.jsx";
+import BoxColor from"./BoxColor.jsx";
 function App() {
   return (
-    <div style={{ padding: 24, display: "grid", gap: 24 }}>
+    <div style={{ display: "flex", gap: "20px", padding: "20px" }}>
       <CreditCard
         type="Visa"
         number="0123456789018875"
@@ -36,6 +35,8 @@ function App() {
         bgColor="#ddbb55"
         color="white"
       />
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
     </div>
   );
 }
